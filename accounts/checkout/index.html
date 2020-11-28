@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    
+    <!-- Title icon -->
+    <link rel="icon" href="../../icon/title.svg"> 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href=../../css/bootstrap.min.css rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href=../../css/mdb.min.css rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href=../../css/style.min.css rel="stylesheet">
+
+    <style>
+
+        main {
+            background: linear-gradient(to bottom, rgba(179, 179, 100, 0.466), rgba(176, 224, 167, 0.87)) fixed;
+        }
+    </style>
+
+</head>
+<body>
+    
+
+<!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark amy-crisp-gradient scrolling-navbar" style="color:#25d366">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand waves-effect" href=../../index.html>
+        <strong style="color:#f44336">DREAM</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a style="color:#795548" class="nav-link waves-effect" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a style="color:#795548" class="nav-link waves-effect" href=index.html>Checkout</a>
+          </li>
+          
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+
+        
+
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href=../signup/index.html>
+              <span style="color:#795548" class="clearfix d-none d-sm-inline-block"> Register </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href=index.html>
+              <span style="color:#795548" class="clearfix d-none d-sm-inline-block"> Login </span>
+            </a>
+          </li>
+        
+          
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+    
+
+    
+
+  <main class="mt-5 pt-5 pb-2">
+    <div class="container">
+      <section class="mb-4">
+        <div class="row wow fadeIn">
+          <div class="col-6 offset-3">
+            <h1>Sign In</h1>
+
+            
+
+            
+            <p>If you have not created an account yet, then please
+            <a href="../signup/index.html">sign up</a> first.</p>
+            
+
+            <form class="login" method="" action="../../index.html">
+          
+                   <div id="div_id_login" class="form-group">
+                   <label for="id_login" class=" requiredField">Username<span class="asteriskField">*</span> </label> 
+                   <div class=""> 
+                     <input type="text" name="login" placeholder="Username" autofocus="autofocus" maxlength="150" class="textinput textInput form-control" required id="id_login"> 
+                   </div> 
+                  </div> 
+                   <div id="div_id_password" class="form-group"> 
+                   <label for="id_password" class=" requiredField">Password<span class="asteriskField">*</span></label> 
+                   <div class="">
+                     <input type="password" name="password" placeholder="Password" class="textinput textInput form-control" required id="id_password">
+                   </div>
+                </div> 
+                   <div class="form-group"> 
+                     <div id="div_id_remember" class="form-check"> 
+                     <input type="checkbox" name="remember" class="checkboxinput form-check-input" id="id_remember"> 
+                     <label for="id_remember" class="form-check-label">Remember Me</label> 
+                    </div> 
+                  </div>
+
+              
+              <a class="btn btn-default" href="../reset/index.html">Forgot Password?</a>
+              <button class="btn btn-primary" type="submit">Sign In</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+
+    <!--Footer-->
+  <footer class="page-footer text-center font-small wow fadeIn">
+    <!-- Social icons -->
+    <div class="py-3">
+      <a href="#">
+        <i class="fa fa-facebook mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fa fa-twitter mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fa fa-youtube mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fa fa-google mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fa fa-dribbble mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fa fa-pinterest mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fa fa-github mr-3"></i>
+      </a>
+
+      <a href="#">
+        <i class="fa fa-codepen mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="../index.html"> DREAM </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+    
+
+<!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src=../../js/jquery-3.4.1.min.js></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src=../../js/popper.min.js></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src=../../js/bootstrap.min.js></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src=../../js/mdb.min.js></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+    var alert_close = $("button.close");
+    console.log(alert_close);
+    alert_close.on('click', function(){
+      $(this).parent().parent().slideUp()
+    })
+  </script>
+
+</body>
+
+</html>
